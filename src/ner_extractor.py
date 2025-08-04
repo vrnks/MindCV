@@ -2,8 +2,8 @@ import spacy
 import re
 
 # Load spaCy model for NER-based section extraction
-nlp = spacy.load("en_cv_info_extr")
-
+# nlp = spacy.load("en_cv_info_extr")
+nlp = spacy.load("./models/en_cv_info_extr")
 
 def extract_summary_fallback(text: str) -> str:
     """
