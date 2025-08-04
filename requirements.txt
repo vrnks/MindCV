@@ -1,0 +1,15 @@
+streamlit
+python-docx
+pdfplumber
+pytesseract
+Pillow
+scikit-learn
+xgboost
+shap
+joblib
+matplotlib
+seaborn
+os
+pandas
+scipy
+re
