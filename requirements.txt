@@ -12,3 +12,7 @@ seaborn
 pandas
 scipy
 spacy
+spacy-transformers
+torch
+transformers
+pandas
