@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.sparse import hstack
 
 # === Model paths ===
-MODEL_PATH = "/Users/admin/Desktop/Projects/MindCV/models"
+MODEL_PATH = "./models"
 
 # === Load TF-IDF vectorizers ===
 pos_tfidf = joblib.load(os.path.join(MODEL_PATH, "pos_tfidf.pkl"))
