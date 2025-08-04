@@ -11,3 +11,4 @@ matplotlib
 seaborn
 pandas
 scipy
+spacy
