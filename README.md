@@ -98,8 +98,7 @@ MindCV/
 
 1. **Load Data**: Accepts PDF or manual input.
 2. **Extract Sections**: Identify `Position`, `Soft Skills`, `Summary`, `Projects`.
-3. **Feature Transformation**: Apply **TF-IDF** to each section.
-4. **Prediction**: Use trained **Logistic Regression** models:
+3. **Prediction**: Use trained **Logistic Regression** models:
 
    * `logreg_mbtigroup.pkl` → MBTI Group
    * `logreg_belbinrole.pkl` → Belbin Role
