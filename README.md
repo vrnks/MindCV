@@ -55,6 +55,11 @@ The model was trained on a **custom dataset** combining information about job po
 | `MBTI`       | The full 4-letter MBTI type (e.g., INTJ, ENFP)                         |
 | `MBTI_Group` | One of the 4 MBTI groups (Analysts, Diplomats, Sentinels, Explorers)   |
 
+Shape: (788, 7)
+The project uses a custom-built dataset of 788 CV samples with 108 unique positions from the IT sector.
+
+⚠ Currently, all samples come from the IT industry. Future versions will expand to other domains for better generalization.
+
 **Example row:**
 
 ```
